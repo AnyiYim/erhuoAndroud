@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anyi\.android\build-cache\cc36de32d94e1c0199a1e162f58fe94847012cbc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="E:\bomb\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c1bd6d91b426ea6ea942783a212836af3bbc9067\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anyi\.android\build-cache\59b7fcb0b3904ce6eb20bf451270f19941fc1bf6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="E:\bomb\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_402d3c2a7b8b4e7616cd48f726f3f15baf9a4c83\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anyi\.android\build-cache\6fec86fc2bdba7aee3f94a90935832efe46eded3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="E:\bomb\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_49add610e520e9461ca3d2cda50a410c38bd9742\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\bomb\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d4c7b0f42f823e49241c0efe0e7d90ba7b915438">
+        <dex dex="E:\bomb\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_dcfac1828329f859ea94b82f0d8d75ce2428cb68\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\bomb\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="E:\bomb\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_1dfe7a12eff0624e6f033d353aa2d604abee830c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anyi\.android\build-cache\8c01960dc68e275e2f665acdaa6d6f8356b6d68c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="E:\bomb\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c3aaa56b65a4a1a0f03f5b462cb0c3e78c9c1876\classes.dex" />
+    </item>
+
+</items>

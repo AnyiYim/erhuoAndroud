@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\bomb\\app\\build\\intermediates\\res\\merged\\debug\\menu\\toolbar.xml",
+        "source": "E:\\bomb\\app\\src\\main\\res\\menu\\toolbar.xml"
+    },
+    {
+        "merged": "E:\\bomb\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_drawer.xml",
+        "source": "E:\\bomb\\app\\src\\main\\res\\menu\\menu_drawer.xml"
+    }
+]

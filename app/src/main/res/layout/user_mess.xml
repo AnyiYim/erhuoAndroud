@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--    <Button
+            android:id="@+id/take_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buymess="拍照获取照片"/>-->
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <!--折叠标题-->
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_collapseMode="pin"
+
+
+            />
+
+        <!--这个是那个标头-->
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                >
+
+                <TableRow
+                    android:layout_margin="5dp">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:text="学号"
+                        android:textSize="18sp"
+                        android:padding="3dip"  />
+
+
+
+                    <TextView
+                        android:id="@+id/num"
+                        android:maxLines="1"
+                        android:text="columnssssssssssssss"
+                        android:layout_span="2"
+                        android:textSize="18sp"
+                        android:layout_gravity="center"
+                        android:padding="3dip"  />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_margin="5dp">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:text="姓名"
+                        android:textSize="18sp"
+                        android:padding="3dip"  />
+
+
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:maxLines="1"
+                        android:textSize="18sp"
+                        android:text="column3"
+                        android:layout_span="2"
+                        android:layout_gravity="center"
+                        android:padding="3dip"  />
+
+                </TableRow>
+                <TableRow
+                    android:layout_margin="5dp">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:text="性别"
+                        android:textSize="18sp"
+                        android:padding="3dip"  />
+
+
+
+                    <TextView
+                        android:id="@+id/sex"
+                        android:maxLines="1"
+                        android:textSize="18sp"
+                        android:text="column3"
+                        android:layout_span="2"
+                        android:layout_gravity="center"
+                        android:padding="3dip"  />
+
+                </TableRow>
+                <TableRow
+                    android:layout_margin="5dp">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:text="学校"
+                        android:textSize="18sp"
+                        android:padding="3dip"  />
+
+
+
+                    <TextView
+                        android:id="@+id/sname"
+                        android:maxLines="1"
+                        android:textSize="18sp"
+                        android:text="column3"
+                        android:layout_span="2"
+                        android:layout_gravity="center"
+                        android:padding="3dip"  />
+
+                </TableRow>
+                <TableRow
+                    android:layout_margin="5dp">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:text="联系方式"
+                        android:textSize="18sp"
+                        android:padding="3dip"  />
+
+
+
+                    <TextView
+                        android:id="@+id/tel"
+                        android:maxLines="1"
+                        android:textSize="18sp"
+                        android:text="column3"
+                        android:layout_span="2"
+                        android:layout_gravity="center"
+                        android:padding="3dip"  />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_margin="5dp">
+
+                    <TextView
+
+                        android:textSize="18sp"
+                        android:text="column11"
+
+                        android:visibility="invisible"/>
+
+                    <TextView
+                        android:textSize="18sp"
+                        android:text="sssssssssssssss"
+                        android:gravity="right"
+                        android:visibility="invisible"
+                        android:padding="3dip"
+                        />
+
+                    <TextView
+
+                        android:text="column11"
+
+                        android:visibility="invisible"/>
+
+                </TableRow>
+
+
+
+
+
+            </TableLayout>
+
+
+
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

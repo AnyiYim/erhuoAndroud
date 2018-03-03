@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_hall"
+            android:title="我的市场" />
+        <item
+            android:id="@+id/nav_about"
+            android:title="个人信息" />
+
+        <item
+            android:id="@+id/help"
+            android:title="帮助" />
+    </group>
+
+    <item android:title="其他">
+        <menu>
+            <item
+                android:id="@+id/nav_version"
+                android:title="版本信息"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/quite"
+                android:title="退出登录"
+                android:checkable="true"/>
+        </menu>
+    </item>
+
+</menu>

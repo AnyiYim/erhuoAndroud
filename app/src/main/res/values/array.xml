@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tab_short_Title">
+        <item>卖</item>
+        <item>买</item>
+    </string-array>
+</resources>

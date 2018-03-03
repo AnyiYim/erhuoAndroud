@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/back_up"
+        android:icon="@drawable/ic_back"
+        android:title="back up"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/sell"
+        android:title="我要卖"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/buy"
+        android:title="我要买"
+        app:showAsAction="never"/>
+
+</menu>

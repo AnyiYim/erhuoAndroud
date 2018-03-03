@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">bomb</string>
+    <string name="drawer_open">打开个人信息</string>
+    <string name="drawer_close">关闭个人信息</string>
+</resources>

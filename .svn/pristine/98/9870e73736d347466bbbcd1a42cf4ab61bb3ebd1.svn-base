@@ -1,0 +1,89 @@
+package com.example.anyi.bomb;
+
+import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
+
+/**
+ * Created by Anyi on 2018/1/20.
+ */
+
+public class toolbartext extends AppCompatActivity {
+
+    private Toolbar toolbar;
+    private DrawerLayout drawerLayout;
+
+
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.toolbartext);
+        findView();
+        init();
+        ActionBarDrawerToggle actionBarDrawerToggle = new ActionBarDrawerToggle(
+                this, drawerLayout, toolbar, R.string.drawer_open, R.string.drawer_close
+        ){
+            @Override
+            public void onDrawerOpened(View drawerView) {
+                super.onDrawerOpened(drawerView);
+            }
+
+            @Override
+            public void onDrawerClosed(View drawerView) {
+                super.onDrawerClosed(drawerView);
+            }
+        };
+        ActionBar actionBar = getSupportActionBar();
+        //设置显示返回箭头
+        actionBar.setDisplayHomeAsUpEnabled(true);
+        //设置显示三横杠
+        drawerLayout.addDrawerListener(actionBarDrawerToggle);
+        actionBarDrawerToggle.syncState();
+
+
+
+
+
+    }
+
+    private void init() {
+        setSupportActionBar(toolbar);
+    }
+
+    private void findView() {
+        toolbar = (Toolbar)findViewById(R.id.toolbar);
+        drawerLayout = (DrawerLayout) findViewById(R.id.drawerL);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.toolbar, menu);
+        return true;
+    }
+
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.back_up:
+                Toast.makeText(this,"jjj",Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.delete:
+                Toast.makeText(this,"djjj",Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.settings:
+                Toast.makeText(this,"sjjj",Toast.LENGTH_SHORT).show();
+                break;
+            default:
+        }
+        return true;
+    }
+}
